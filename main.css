@@ -110,7 +110,19 @@ header {
 
 /* ==== LAYOUT STYLES ==== */
 
+/* Main Header Styles */
 .header {
-    text-align: center;
-    padding: 1.25rem;
+	text-align: center;
+	padding: 1.25rem;
+}
+
+/* Article Styles */
+.content {
+	width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
+
+.picture {
+	width: 100%;
 }
