@@ -63,3 +63,31 @@ h1, h2 {
 p {
     font-family: 'Merriweather';
 }
+
+/* ==== BASE STYLES ==== */
+
+body {
+    font-family: Merriweather, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 32px;
+}
+  
+h1, h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28.8px;
+}
+
+h2 {
+    font-size: 25.6px;
+    color: #e5127d;
+}
+
+.header p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #8c8e9b;
+}
