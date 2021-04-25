@@ -44,6 +44,8 @@ table {
 	border-spacing: 0;
 }
 
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+/* 
 .header {
     background-color: rgba(250, 200, 50, .3);
 }
@@ -55,6 +57,7 @@ table {
 .content {
     background-color: rgba(2550, 0, 150, .3);
 }
+÷/
 
 h1, h2 {
     font-family: 'Open Sans';
@@ -108,12 +111,37 @@ header {
 	box-sizing: border-box;
 }
 
+a {
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b60e63;
+}
+
 /* ==== LAYOUT STYLES ==== */
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img,
+.header, .main-content {
+    margin-bottom: 1rem;
+}
+
+.content {
+	width: 95%;
+	margin: 0 auto 1rem;
+	padding: 0.3125rem;
+}
 
 /* Main Header Styles */
 .header {
 	text-align: center;
 	padding: 1.25rem;
+	color: #fff;
+	background-color: #42444e;
 }
 
 /* Article Styles */
@@ -125,4 +153,30 @@ header {
 
 .picture {
 	width: 100%;
+}
+
+/* ==== COMPONENT STYLES ==== */
+
+.button {
+	display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+	border: 1px solid #b60e63;
+}
+
+.load {
+	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #8c8e9b;
 }
