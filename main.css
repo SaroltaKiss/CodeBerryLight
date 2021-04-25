@@ -43,3 +43,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.header {
+    background-color: rgba(250, 200, 50, .3);
+}
+
+.main-content {
+    background-color: rgba(200, 100, 80, .3);
+}
+
+.content {
+    background-color: rgba(2550, 0, 150, .3);
+}
