@@ -55,3 +55,11 @@ table {
 .content {
     background-color: rgba(2550, 0, 150, .3);
 }
+
+h1, h2 {
+    font-family: cursive;
+}
+
+p {
+    font-family: serif;
+}
